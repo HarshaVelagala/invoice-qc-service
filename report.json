@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "total": 5,
+    "valid": 0,
+    "invalid": 5,
+    "error_counts": {
+      "missing_invoice_number": 5,
+      "missing_invoice_date": 5
+    }
+  },
+  "invoices": [
+    {
+      "invoice_id": "sample_pdf_2",
+      "is_valid": false,
+      "errors": [
+        "missing_invoice_number",
+        "missing_invoice_date"
+      ]
+    },
+    {
+      "invoice_id": "sample_pdf_3",
+      "is_valid": false,
+      "errors": [
+        "missing_invoice_number",
+        "missing_invoice_date"
+      ]
+    },
+    {
+      "invoice_id": "sample_pdf_1",
+      "is_valid": false,
+      "errors": [
+        "missing_invoice_number",
+        "missing_invoice_date"
+      ]
+    },
+    {
+      "invoice_id": "sample_pdf_4",
+      "is_valid": false,
+      "errors": [
+        "missing_invoice_number",
+        "missing_invoice_date"
+      ]
+    },
+    {
+      "invoice_id": "sample_pdf_5",
+      "is_valid": false,
+      "errors": [
+        "missing_invoice_number",
+        "missing_invoice_date"
+      ]
+    }
+  ]
+}
